@@ -1,15 +1,14 @@
-# chat
-Chat application using sockets
 # About
 
-An application for tracking students' attendance
+Chat application using sockets
 
 <img src="images/uploadingData.png" height="60%" width ="60%">
 
 ## Features
-* add/delete students and groups manually
-* upload/update students and groups from file
-* save selected date attendance to the PDF
+* group rooms and direct messages
+* multiple users can join the server
+* users can send messages simultaneously, because multi threading is implemented
+* messages are saved to the .json file after stoping the server, BUT are not loaded back when starting the server again
 
 ## Technologies
 #### Project is created with:
