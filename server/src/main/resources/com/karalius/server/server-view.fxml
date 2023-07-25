@@ -5,7 +5,7 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="241.0" prefWidth="351.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.chat.ServerController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="241.0" prefWidth="351.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.karalius.server.ServerController">
    <children>
       <ComboBox fx:id="cb_rooms" layoutX="68.0" layoutY="117.0" prefHeight="25.0" prefWidth="108.0" promptText="rooms" />
       <ComboBox fx:id="cb_clients" layoutX="123.0" layoutY="83.0" prefHeight="25.0" prefWidth="108.0" promptText="clients" />

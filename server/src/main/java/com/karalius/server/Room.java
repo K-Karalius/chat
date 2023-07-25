@@ -1,4 +1,4 @@
-package application.chat;
+package com.karalius.server;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

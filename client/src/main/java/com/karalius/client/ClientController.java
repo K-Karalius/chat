@@ -1,8 +1,7 @@
-package application.chat;
+package com.karalius.client;
 
 
 import javafx.fxml.FXML;
-import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
@@ -31,7 +30,7 @@ public class ClientController {
     void send(KeyEvent event){
         if(event.getCode() == KeyCode.ENTER){
             String message = tf_message.getText().trim();
-            if(message != null && !message.isEmpty()){
+            if(!message.isEmpty()){
                 client.sendMessage(message);
                 tf_message.clear();
             }

@@ -1,9 +1,10 @@
-package application.chat;
+package com.karalius.server;
 
-import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.*;
+import javafx.scene.control.Button;
+import javafx.scene.control.ComboBox;
+import javafx.scene.control.TextField;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -59,7 +60,7 @@ public class ServerController implements Initializable {
     @FXML
     void addRoom() {
         String roomName = tf_name.getText().trim();
-        if(roomName != null && !roomName.isEmpty()){
+        if(!roomName.isEmpty()){
             if(!cb_rooms.getItems().contains(roomName)){
                 cb_rooms.getItems().add(roomName);
                 server.addRoom(roomName);

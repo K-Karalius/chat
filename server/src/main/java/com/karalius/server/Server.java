@@ -1,4 +1,4 @@
-package application.chat;
+package com.karalius.server;
 
 
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -14,7 +14,7 @@ import java.util.concurrent.Executors;
 
 public class Server implements Runnable{
 
-    private ServerSocket serverSocket;
+    private  ServerSocket serverSocket;
     private ArrayList<ConnectionHandler> connections;
     private ArrayList<Room> rooms;
     private boolean done;
