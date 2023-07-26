@@ -2,7 +2,9 @@
 
 Chat application using sockets
 
-<img src="images/server.PNG" height="30%" width ="30%"> <img src="images/client1.PNG" height="50%" width ="50%"> <img src="images/client2.PNG" height="50%" width ="50%">
+<img src="images/server.PNG" height="60%" width ="60%"> 
+
+<img src="images/client1.PNG" height="50%" width ="50%"> <img src="images/client2.PNG" height="50%" width ="50%">
 
 ## Features
 * group rooms and direct messages
