@@ -2,7 +2,9 @@
 
 Chat application using sockets
 
-<img src="images/uploadingData.png" height="60%" width ="60%">
+<img src="images/server.PNG" height="60%" width ="60%">
+<img src="images/client1.PNG" height="60%" width ="60%">
+<img src="images/client2.PNG" height="60%" width ="60%">
 
 ## Features
 * group rooms and direct messages
@@ -32,5 +34,5 @@ Chat application using sockets
 
 >  **_IMPORTANT things to note:_**
 
-* STOP THE SERVER BEFORE CLOSING AND DISCONNECT THE CLIENT BEFORE CLOSING
+* STOP THE SERVER BEFORE CLOSING AND DISCONNECT THE CLIENT BEFORE CLOSING, BECAUSE APPLICATIONS WILL BE RUNNING IN THE BACKGROUND
 
